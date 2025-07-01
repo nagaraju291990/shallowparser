@@ -5,11 +5,17 @@ Shallow parser using API
 
 ### Code1
 
+#### How to run:
 `python3 run_api_xlsx.py <path of input XLSX file> <path of outputjson file> <3 letter language code>`
-`python3 run_api_xlsx.py /home/nagaraju/shallow-parser-api/POS_DATA/kannada/Agri_Kannada_POS_7000.xlsx kan > /home/nagaraju/shallow-parser-api/    POS_DATA/kannada/Agri_Kannada_POS_7000_json.txt kan`
+
+#### 3 letter language code:
+hin|guj|kan|mar|mal|ban|urd
+
+#### 
+`python3 run_api_xlsx.py Agri_Kannada_POS_7000.xlsx kan > Agri_Kannada_POS_7000_json.txt kan`
 
 ### Code2
-`python3 extract_POS_from_JSON.py <json_file from step1> <path_to_output_excel_file>
+`python3 extract_POS_from_JSON.py <json_file_from_above_step> <path_to_output_excel_file>`
 
 ## Shallow Parser API 
 [https://docs.google.com/document/d/1ladwOIJ7DEHCnBwOy4MKiUtVRLaQpvisOPkWf458jxg/edit?tab=t.0](https://docs.google.com/document/d/1ladwOIJ7DEHCnBwOy4MKiUtVRLaQpvisOPkWf458jxg/edit?tab=t.0)
